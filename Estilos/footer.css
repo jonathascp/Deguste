@@ -1,0 +1,54 @@
+footer {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../Media/local.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#rodape_container {
+    width: 85%;
+    color: #fff;
+}
+
+#rodape_titulo {
+    margin-bottom: 50px;
+}
+
+#rodape_container  h6 {
+    font-weight: bold;
+    font-size: 1.7em;
+}
+
+
+#rodape_contato b {
+    color: #deab2a;
+}
+
+#rodape_contato {
+    margin-bottom: 50px;
+}
+
+#rodape_sociais {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 25px;
+}
+
+#instagram a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#whatsapp a {
+    color: #fff;
+    text-decoration: none;
+}

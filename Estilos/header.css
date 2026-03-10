@@ -1,0 +1,45 @@
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9;
+    width: 100%;
+}
+
+#cabecalho {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(0,0,0,.45);
+}
+
+#logo {
+    width: 35%;
+}
+
+#list_icon {
+    border: none;
+    background: transparent;   
+}
+
+#list_icon > img {
+    width: 30px;
+}
+
+ul > li {
+    color: #fff;
+    list-style: none;
+    padding-bottom: 7px;
+}
+
+#nav_transparente {
+    background-color: rgba(0,0,0,.45);
+}
+
+ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2em;
+    font-weight: 500;
+}
