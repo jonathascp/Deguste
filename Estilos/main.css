@@ -11,7 +11,7 @@
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    background-image: url("/Media/pastelao.jpg");
+    background-image: url("../Media/pastelao.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
