@@ -1,0 +1,162 @@
+@media(min-width: 1024px) {
+
+    #banner {
+        height: 1100px;
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+        align-items: start;
+        padding-bottom: 50px;
+    }
+
+    #banner_texto {
+        margin-top: 100px;
+    }
+
+    #banner_texto>p {
+        font-size: 1.7em;
+    }
+
+    #banner_texto>h1 {
+        width: 370px;
+        font-size: 2.7em;
+
+    }
+
+    #secao_imagens {
+        display: none;
+    }
+
+    #secao_salgado {
+        flex-direction: row;
+        justify-content: space-around;
+        padding: 0px 35px;
+    }
+
+
+    #salgado_titulo {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+    }
+
+    #salgado_titulo h1 {
+        font-family: "Zain", sans-serif;
+        font-weight: bold;
+        font-size: 3.7rem;
+        text-align: left;
+    }
+
+    #salgado_titulo p {
+        font-family: "Zain", sans-serif;
+        font-weight: bold;
+        color: #deab2a;
+        font-size: 2rem;
+        text-align: left;
+    }
+
+    #imagem_hamburguer {
+        width: 55%;
+
+
+    }
+
+    #secao_produtos {
+        width: 100%;
+        padding: 25px;
+        margin-top: 50px;
+        background-color: #deab2a;
+    }
+
+
+    #produtos_titulo {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        & h1 {
+            font-family: "Zain", sans-serif;
+            font-weight: bold;
+            padding-bottom: 20px;
+        }
+
+        & p {
+            font-family: "Zain", sans-serif;
+            font-size: 1.7rem;
+            line-height: 9px;
+            font-weight: 500;
+        }
+    }
+
+    #produtos_salgado {
+        width: 100%;
+        padding: 50px 25px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 35px;
+    }
+
+    .direita {
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        justify-content: space-between;
+        background-color: #deab2a;
+    }
+
+    .esquerda {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        background-color: #fff;
+       
+    }
+
+
+    .produto {
+        width: 85%;
+        
+        border-radius: 25px;
+        padding: 35px 20px;
+        box-shadow: 3px 3px 20px rgba(0, 0, 0, .3);
+
+
+        & img {
+            width: 430px;
+        }
+
+    }
+
+    #titulo {
+        height: 260px;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: start;
+        
+        & p:nth-of-type(1) {
+            font-size: 1.4rem;
+            font-weight: 500;
+            line-height: 7px;
+        }
+
+        & p:nth-of-type(2) {
+            width: 400px;
+            font-weight: 500;
+            font-size: 1.3rem;
+            line-height: 30px;
+        }
+
+        & h6 {
+            font-size: 4.2rem;
+            font-weight: bold;
+        }
+
+    }
+
+
+}

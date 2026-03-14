@@ -1,0 +1,36 @@
+@media (min-width: 1024px) {
+    #cabecalho {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background: #000000;
+        border-bottom: 3px solid #DEAB2A;
+        #logo {
+            width: 10%;
+        }
+    }
+
+    .navbar {
+        display: none;
+    }
+
+    .barra_menu {
+        display: none;
+    }
+
+    #menu_navegacao {
+        padding-right: 25px;
+    }
+
+    #menu_navegacao ul li a {
+        color: #fff
+    }
+
+    #menu_navegacao ul {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 25px;
+        padding-top: 10px;
+    }
+}
