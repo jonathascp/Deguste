@@ -1,7 +1,7 @@
 @media(min-width: 1024px) {
 
     #banner {
-        height: 1100px;
+        height: 680px;
         display: flex;
         flex-direction: column;
         justify-content: end;
