@@ -17,38 +17,3 @@ footer {
     color: #fff;
 }
 
-#rodape_titulo {
-    margin-bottom: 50px;
-}
-
-#rodape_container  h6 {
-    font-weight: bold;
-    font-size: 1.3em;
-}
-
-
-#rodape_contato b {
-    color: #deab2a;
-}
-
-#rodape_contato {
-    margin-bottom: 50px;
-}
-
-#rodape_sociais {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: start;
-    gap: 25px;
-}
-
-#instagram a {
-    color: #fff;
-    text-decoration: none;
-}
-
-#whatsapp a {
-    color: #fff;
-    text-decoration: none;
-}
