@@ -113,13 +113,13 @@
         align-items: center;
         justify-content: space-between;
         background-color: #fff;
-       
+
     }
 
 
     .produto {
         width: 85%;
-        
+
         border-radius: 25px;
         padding: 35px 20px;
         box-shadow: 3px 3px 20px rgba(0, 0, 0, .3);
@@ -137,7 +137,7 @@
         flex-direction: column;
         align-items: start;
         justify-content: start;
-        
+
         & p:nth-of-type(1) {
             font-size: 1.4rem;
             font-weight: 500;
@@ -158,5 +158,41 @@
 
     }
 
+    #secao_acai {
+        width: 80%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: start;
+        margin: 25px 0;
+        border: 3px solid #520150;
+        border-radius: 25px;
+        padding: 65px 15px;
+        gap: 0;
+        background-color: #fff;
+        box-shadow: 0 19px 15px rgba(0, 0, 0, .3);
 
+        & img {
+            width: 500px;
+        }
+
+        & > #titulo > h6 {
+            width: 560px;
+            color: #520150;
+        }
+
+        & > #titulo > p {
+            color: #520150;
+            font-weight: 600;
+            line-height: normal;
+
+            & b {
+                font-weight: bolder;
+                color: #deab2a
+            }
+        }
+        
+        }
+    
 }
