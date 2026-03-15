@@ -3,11 +3,12 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-        
+        background-color: rgba(0, 0, 0, .3);
         border-bottom: 3px solid #DEAB2A;
-        #logo {
-            width: 10%;
-        }
+    }
+
+    #logo {
+        width: 12%;
     }
 
     .navbar {
@@ -24,6 +25,7 @@
 
     #menu_navegacao ul li a {
         color: #fff;
+        font-size: 1.9rem;
     }
 
     #menu_navegacao ul {
