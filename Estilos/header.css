@@ -6,6 +6,10 @@ header {
     width: 100%;
 }
 
+#menu_navegacao {
+    display: none;
+}
+
 #cabecalho {
     width: 100%;
     display: flex;
